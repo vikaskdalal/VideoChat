@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="local-video col-6">
+        <p>local:</p>
+        <video #localVideo [autoplay]="true" [muted]="true"></video>
+    </div>
+    <div class="remote-video col-6">
+        <p>remote:</p>
+        <video #remoteVideo [autoplay]="true" [muted]="true"></video>
+    </div>
+    <div class="">
+        <button class="btn btn-success" (click)="startLocalStream()">Start Local</button>
+        <button class="btn btn-success" (click)="pauseLocalStream()">Stop Local</button>
+        <button class="btn btn-success" (click)="call()">Call</button>
+        <button class="btn btn-danger">Hangup</button>
+    </div>
+</div>

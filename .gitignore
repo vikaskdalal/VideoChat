@@ -44,3 +44,14 @@ Client/testem.log
 # System Files
 Client/.DS_Store
 Client/Thumbs.db
+
+
+
+.vs/*
+/VideoChat/obj/Debug/net6.0
+/VideoChat/obj
+/VideoChat/bin/Debug/net6.0
+/.vscode
+
+
+
